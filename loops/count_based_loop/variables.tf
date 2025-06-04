@@ -3,7 +3,7 @@ variable "ami_id" {
   default = "ami-0b4f379183e5706b9"
 }
 
-variable "component_names" {
+variable "instance_names" {
   type    = list(string)
   default = ["mongodb", "redis", "mysql", "rabbitmq", "catalogue", "user", "cart", "shipping", "payment", "dispatch", "web"]
 }
